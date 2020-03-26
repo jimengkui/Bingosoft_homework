@@ -18,12 +18,12 @@ npm run build
 基本功能参考iview的grid组件 https://www.iviewui.com/components/grid   
 新功能  
 
-|       属性     |             说明              |   类型   |     默认值   |
-| :------------: | ---- ------------------------| :------: | :---------:  |
-| :isShowContent | 是否弹出modal展示点击的dom元素 | Boolean  |     False    |
+|       属性     |             说明              |   类型   |     默认值   |  
+| :------------: | ---- ------------------------| :------: | :---------:  |  
+| :isShowContent | 是否弹出modal展示点击的dom元素 | Boolean  |     False    |  
 
-modal事件
-this.$JmkModal.show()    显示modal
-this.$JmkModal.hide()    隐藏modal
-this.$JmkModal.ok()      点击确定按钮
+modal事件  
+this.$JmkModal.show()    显示modal  
+this.$JmkModal.hide()    隐藏modal  
+this.$JmkModal.ok()      点击确定按钮  
 this.$JmkModal.cancel()  点击取消按钮
