@@ -30,4 +30,8 @@ modal事件
 this.$JmkModal.show()    显示modal  
 this.$JmkModal.hide()    隐藏modal  
 this.$JmkModal.ok()      点击确定按钮  
+<<<<<<< HEAD
 this.$JmkModal.cancel()  点击取消按钮
+=======
+this.$JmkModal.cancel()  点击取消按钮
+>>>>>>> 0610c658d68b4090a2fae3ca401e66e180004a19

@@ -52,6 +52,7 @@
 			},
 		},
 		methods: {
+			//按钮点击事件
 			btnClick(mas) {
 				switch (mas) {
 					case "hide":
