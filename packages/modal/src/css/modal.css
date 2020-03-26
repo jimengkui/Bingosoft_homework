@@ -1,0 +1,89 @@
+.jmkModal * {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+.jmkModal {
+	position: absolute;
+	top: 0;
+	left: 0;
+	-webkit-display: flex;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 100vw;
+	height: 100vh;
+	z-index: 99998;
+}
+
+.jmkModal div[name="modal"] {
+	-webkit-display: flex;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-flow: column wrap;
+	min-width: 550px;
+	min-height: 250px;
+	border-radius: 7px;
+	background: #fff;
+	box-shadow: 0px 0px 8px 0px #504242;
+	z-index: 99999;
+}
+
+
+
+.jmkModal div[name="title"] {
+	position: relative;
+	width: 100%;
+	min-height: 50px;
+}
+
+.jmkModal div[name="title"]>p {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.jmkModal div[name="body"] {
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	width: 100%;
+	max-width: 700px;
+	max-height: 450px;
+	overflow: auto;
+	flex-grow: 1;
+	min-height: 100px;
+	padding: 5px;
+	border-top: 1px solid #e8eaec;
+	border-bottom: 1px solid #e8eaec;
+}
+
+
+.jmkModal div[name="footer"] {
+	-webkit-display: flex;
+	display: flex;
+	min-height: 50px;
+	width: 100%;
+	justify-content: flex-end;
+	align-items: center;
+
+}
+
+.shade[name="shade"] {
+	position: fixed;
+	left: 0;
+	top: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	width: 100vw;
+	height: 100vh;
+}
+
+.jmkModal,
+.shade {
+	animation-duration: .5s;
+	animation-fill-mode: both;
+}

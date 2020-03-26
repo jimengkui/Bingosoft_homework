@@ -1,0 +1,48 @@
+button{
+	color: #fff;
+	
+}
+button:hover{
+	opacity:0.7;
+}
+button:active{
+	opacity:0.9;
+}
+
+.jmk-button-default {
+	border-color: #2db7f5;
+	background-color: #fff;
+	color: #000;
+}
+
+.jmk-button-default:hover {
+	color: royalblue;
+	-webkit-border-radius: 4px;
+	border-radius: 4px;
+	border-color: #2d8cf0;
+}
+
+.jmk-button-defaultt:active {
+	-webkit-border-radius: 4px;
+	opacity: 0.7;
+}
+
+
+
+.jmk-button-success {
+	color:#fff;
+	background: #19be6b;
+}
+
+.jmk-button-info {
+	color: #fff;
+	background: #2d8cf0;
+}
+.jmk-button-success:hover,
+.jmk-button-info:hover {
+	opacity: 0.7;
+}
+.jmk-button-success:hover,
+.jmk-button-info:active {
+	opacity: 0.9;
+}
