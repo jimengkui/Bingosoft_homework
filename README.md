@@ -14,7 +14,7 @@ npm run serve
 ```
 npm run build
 ```
-改组件基于iview，grid组件代码的基础上进行的二次封装   
+该组件基于iview，grid组件代码的基础上进行的二次封装   
 基本功能参考iview的grid组件 https://www.iviewui.com/components/grid   
 新功能  
 
