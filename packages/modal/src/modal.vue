@@ -29,8 +29,14 @@
 </template>
 
 <script>
+	import jmkIcon from "../../icon/icon.vue"
+	import jmkButton from "../../button/src/button.vue"
 	export default {
 		name: "jmkModal",
+		components:{
+			jmkIcon,
+			jmkButton
+		},
 		data() {
 			return {
 				isShowModal: true,
