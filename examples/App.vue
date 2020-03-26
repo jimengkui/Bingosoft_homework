@@ -2,7 +2,8 @@
 	<div id="app">
 		<p>子元素居中排列</p>
 		<jmk-row type="flex" justify="center" class="code-jmk-row-bg" :isShowContent="true">
-			<jmk-col span="4">jmk-col-eee
+			<jmk-col span="4">
+				<p>jmk-col-4</p>
 				<jmk-row type="flex" justify="space-between" class="code-jmk-row-bg">
 					<jmk-col span="4">jmk-col-4.1</jmk-col>
 					<jmk-col span="4">jmk-col-4.2</jmk-col>
@@ -28,6 +29,7 @@
 <style>
 	.jmk-col {
 		border: #000000 1px solid;
+		padding: 10px;
 	}
 	#app {
 		font-family: Avenir, Helvetica, Arial, sans-serif;
